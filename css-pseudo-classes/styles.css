@@ -1,0 +1,24 @@
+h2 {
+  font-family: serif;
+}
+
+input {
+  padding: 8px 28px;
+  border: 1px solid black;
+  background-color: #f3f4f4;
+}
+
+input:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(204, 204, 204);
+}
