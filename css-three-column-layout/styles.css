@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(25 150 218);
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.border {
+  background-color: white;
+  display: flex;
+  border-radius: 100%;
+  padding: 13px;
+  margin: auto;
+  justify-content: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.lato-font {
+  color: white;
+  font-family: lato, serif;
+  font-weight: 400;
+}
