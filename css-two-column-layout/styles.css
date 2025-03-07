@@ -1,0 +1,46 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-three-fourth {
+  flex-basis: 75%;
+}
+
+.column-one-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.font-karla-400 {
+  font-family: karla, sans-serif;
+  font-weight: 400;
+}
+
+.font-karla-700 {
+  font-family: karla, sans-serif;
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.center-text-align {
+  text-align: center;
+}
+
+.gray {
+  color: gray;
+}
