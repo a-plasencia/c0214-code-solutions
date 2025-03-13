@@ -7,8 +7,16 @@
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .column-full {
   width: 100%;
+}
+
+.column-half {
+  flex-basis: calc(100% / 2);
 }
 
 .column-three-fourth {
@@ -17,10 +25,6 @@
 
 .column-one-fourth {
   flex-basis: calc(100% / 4);
-}
-
-.wrap {
-  flex-wrap: wrap;
 }
 
 .font-karla-400 {
@@ -43,4 +47,13 @@
 
 .gray {
   color: gray;
+}
+
+.button {
+  color: rgb(209 76 69);
+  background-color: white;
+  border-color: rgb(209 75 69);
+  padding: 8px 30px;
+  border: 1.5px solid;
+  margin: 2rem;
 }
