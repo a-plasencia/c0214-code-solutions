@@ -21,10 +21,15 @@
 
 .column-three-fourth {
   flex-basis: 75%;
+  padding-right: 2rem;
 }
 
 .column-one-fourth {
   flex-basis: calc(100% / 4);
+}
+
+.margin-column {
+  margin-top: 1rem;
 }
 
 .font-karla-400 {
@@ -41,6 +46,10 @@
   text-transform: uppercase;
 }
 
+.line-spacing {
+  line-height: 175%;
+}
+
 .center-text-align {
   text-align: center;
 }
@@ -49,11 +58,25 @@
   color: gray;
 }
 
+.header {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.sub-header {
+  margin: 0 90px 30px;
+}
+
+/* Come back to this later */
+.first-header {
+  margin-top: -1rem;
+}
+
 .button {
   color: rgb(209 76 69);
   background-color: white;
   border-color: rgb(209 75 69);
   padding: 8px 30px;
-  border: 1.5px solid;
+  border: 2px solid;
   margin: 2rem;
 }
